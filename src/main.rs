@@ -1,5 +1,8 @@
 use mnist::*;
 
+mod neuron_approach;
+mod matrix_approach;
+
 fn main()
 {
     // Deconstruct the returned Mnist struct.
